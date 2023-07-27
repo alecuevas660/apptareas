@@ -1,0 +1,38 @@
+.tarea-formulario{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.tarea-input{
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    margin:5px;
+    padding: 10px;
+    border: 2px solid rgb(1, 1, 12);
+    outline: none;
+    background-color: rgb(185, 158, 207);
+}
+
+.tarea-input::placeholder{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.tarea-boton{
+    width: auto;
+    height: 40px;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border: 2px solid rgb(1, 1, 12);
+    background-color: rgb(185, 158, 207);
+}
